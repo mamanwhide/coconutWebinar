@@ -94,7 +94,7 @@ def getData():
 			'id':baris.id,
 			'nama_lengkap':baris.nama_lengkap,
 			'status':baris.status,
-			'bukti_tf':baris.bukti_tf[41:],
+			'bukti_tf':baris.bukti_tf[39:],
 		})
 	return jsonify(data_jsom)
 
