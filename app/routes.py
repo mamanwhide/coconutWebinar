@@ -125,9 +125,9 @@ def postData():
 			# if server
 			# photo_path = os.path.join("/home/daftarcoconut/marvel012/app/static/foto_calgot", nama_lengkap+'.jpg')
 			# if Local
-			photo_path_tf = os.path.join("/home/coconutopenclass/mysite/app/static/foto_tf/", nama_lengkap+'.jpg')
+			photo_path_tf = os.path.join("/home/coconutwebinar/mysite/app/static/foto_tf/", nama_lengkap+'.jpg')
 			photo_tf.save(photo_path_tf)
-			photo_path_follow = os.path.join("/home/coconutopenclass/mysite/app/static/foto_follow/", nama_lengkap+'.jpg')
+			photo_path_follow = os.path.join("/home/coconutwebinar/mysite/app/static/foto_follow/", nama_lengkap+'.jpg')
 			photo_follow.save(photo_path_follow)
 			add_calgot = User(
 				nama_lengkap=request.form.get('nama_lengkap'),
