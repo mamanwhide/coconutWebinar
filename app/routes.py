@@ -93,7 +93,7 @@ def getData():
 		data_jsom.append({
 			'id':baris.id,
 			'nama_lengkap':baris.nama_lengkap,
-			'no_wa':baris.no_wa,
+			'no_wa':baris.nomor_wa,
 			'status':baris.status,
 			'bukti_tf':baris.bukti_tf[39:],
 		})
